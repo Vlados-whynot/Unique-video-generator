@@ -1,0 +1,4 @@
+minute=int(input())
+hour=minute//60
+rem_minute=minute%60
+print(f"{minute} мин - это {hour} час {rem_minute} минут")

@@ -1,0 +1,3 @@
+centi=int(input())
+meters=centi//100
+print(meters)
