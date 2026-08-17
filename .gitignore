@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Project save files — могут содержать Gemini API-ключ в открытом виде!
+*.json
+!package.json
+
+# Runtime / output artifacts
+temp_downloaded/
+temp_preview_*.jpg
+temp_text_*.png
+Batch_Packs_*/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

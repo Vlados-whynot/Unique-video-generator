@@ -1,5 +1,0 @@
-n=int(input())
-vol=n*n*n
-s=6*(n*n)
-print(f'Объем = {vol}')
-print(f'Площадь полной поверхности = 30{s}')

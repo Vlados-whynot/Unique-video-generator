@@ -1,8 +1,0 @@
-x = int(input())
-y = int(input())
-x_king, y_king = 4, 4
-
-if (abs(x - x_king) <= 1 and abs(y - y_king) <= 1) and not (x == x_king and y == y_king):
-    print("YES")
-else:
-    print("NO")
