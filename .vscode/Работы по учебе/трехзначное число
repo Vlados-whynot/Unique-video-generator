@@ -1,8 +1,0 @@
-line1=int(input())
-digit1=line1//100
-digit2=(line1//10)%10
-digit3=line1%10
-sum_of_digit=digit1+digit2+digit3
-product=digit1*digit2*digit3
-print(f"Cумма цифр {sum_of_digit}")
-print(f"Произведение цифр {product}")
